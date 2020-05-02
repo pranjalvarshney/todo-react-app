@@ -1,0 +1,31 @@
+
+#itemdata-div{
+    margin: 20 20px;
+    background: rgba(128, 128, 128, 0.589);
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+#itemdata-div input{
+    border: none;
+    background: transparent;
+    color: white;
+    font-size: 16px;
+}
+
+#itemdata-div input:focus{
+    outline: none;
+}
+.ItemsList{
+    margin-top: 1%;
+    padding-left: 50px;
+    padding-right: 50px;
+    overflow-y: auto;
+    height: 320px;
+}
+.ItemsList span{
+    color:rgb(255, 117, 67);
+    font-size: 12px;
+    float: right;
+    font-weight: 600;
+}
